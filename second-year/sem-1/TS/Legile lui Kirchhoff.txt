@@ -1,0 +1,10 @@
+1. Prima lege a lui Kirchhoff (sau „legea nodurilor”) este o expresie a conservării 
+sarcinii electrice într-un nod al unei rețele electrice. Conform acestei legi, 
+suma intensităților curenților (continui) care intră într-un nod de rețea este egală cu 
+suma intensităților curenților care ies din același nod.
+
+2. A doua lege a lui Kirchhoff se referă la ochiuri de rețea și afirmă:
+
+De-a lungul conturului unui ochi de rețea, suma algebrica a tensiunilor 
+electromotoare ale surselor este egală cu suma algebrică a produselor dintre 
+intensitatea curenților și rezistența totală de pe fiecare latură.
