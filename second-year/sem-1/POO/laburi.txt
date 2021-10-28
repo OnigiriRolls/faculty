@@ -1,0 +1,51 @@
+lab 2
+package lab2;
+
+public class Carte {
+	private int nrPagini = 40;
+	private String autor1, autor2;
+	private static int nrInst;
+	//la static nu trebuie o instanta ca
+	//sa accesezi nrInst
+	
+	public Carte(String a1, String a2) {
+		nrPagini = 50;
+		autor1 = a1;
+		autor2 = a2;
+		nrInst++;
+	}
+	
+	public static int getNrInst() {
+		return nrInst;
+	}
+	
+	public void set(int x, String a1, String a2)
+	{
+		nrPagini = x;
+		//autor = new String[2];
+		
+		autor1 = a1;
+		autor2 = a2;
+	}
+	
+	public void suma(Carte c1) {
+		int s = 0;
+		s = nrPagini + c1.nrPagini;
+		System.out.println(s);
+	}
+	
+	public void tipareste() {
+		System.out.println(nrPagini + " " + autor1 + " " + autor2);
+	}
+}
+
+class ClientCarte{
+	public static void main(String arg[]) {
+		
+		Carte carte1 = new Carte("Ana", "Maria");
+		Carte carte2 = new Carte("Ion", "Alex");
+		Carte carte3 = new Carte("Mihai", "Alex");
+		
+		System.out.println(Carte.getNrInst());	
+	}
+}
